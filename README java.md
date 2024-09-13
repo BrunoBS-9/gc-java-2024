@@ -61,30 +61,28 @@ Este é o cronograma inicial que planejamos para as aulas que vão ocorrer nos d
 | **12/09/2024** | Tipos primitivos, variáveis e operadores |Java para Web|
 | **17/09/2024** | Classes: métodos, objetos e modificadores de acesso|Java para Web|
 | **19/09/2024** | Herança e Polimorfismo + Interfaces|Java para Web|
-| **19/09/2024** | Estruturas de controle (condições, repetições) + Enums|Java para Web|
-| **20/09/2024** | Feriado | Feriado |
-| **24/09/2024** | Arrays e Arraylist |Java para Web|
-| **26/09/2024** | Conjuntos (Set), HashSet e Mapas|Java para Web|
-| **01/10/2024** | **Mundo 2 - Labirinto dos testes** Exceções e tratamento de erro |Java para Web + Fund. Teste em Software|
-| **03/10/2024** | Maven e Gradle + Teste unitário |Java para Web + Fund. Teste em Software|
-| **08/10/2024** | Testes Unitários com Junit parte 2|Java para Web + Fund. Teste em Software |
-| **10/10/2024** | Dojo|Dojo|
-| **15/10/2024** | Ecosistema Spring + Spring Boot |Java para Web + Fund. Teste em Software |
-| **17/10/2024** | Banco de dados relacional e não relacional |Java para Web + Fund. Teste em Software|
-| **22/10/2024** | Spring JPA + Conexão do BD com Software|Java para Web + Fund. Teste em Software|
+| **24/09/2024** | Estruturas de controle (condições, repetições) + Enums|Java para Web|
+| **26/09/2024** | Arrays e Arraylist |Java para Web|
+| **01/10/2024** | Conjuntos (Set), HashSet e Mapas|Java para Web|
+| **03/10/2024** | **Mundo 2 - Labirinto dos testes** Exceções e tratamento de erro |Java para Web + Fund. Teste em Software|
+| **08/10/2024** | Maven e Gradle + Teste unitário |Java para Web + Fund. Teste em Software|
+| **10/10/2024** | Testes Unitários com Junit parte 2|Java para Web + Fund. Teste em Software |
+| **15/10/2024** | Dojo|Dojo|
+| **17/10/2024** | Ecosistema Spring + Spring Boot |Java para Web + Fund. Teste em Software |
+| **22/10/2024** | Banco de dados relacional e não relacional |Java para Web + Fund. Teste em Software|
 | **24/10/2024** | Hackaton |Hackaton|
 | **25/10/2024** | Hackaton |Hackaton|
 | **26/10/2024** | Hackaton |Hackaton|
-| **30/10/2024** | **Mundo 3 - Fortaleza das redes suspensas** Introdução a APIs + Tipos de arquitetura: Monolítica vs. Microsserviços |Java para Web + Cyber Security|
-| **01/11/2024** | Testes e Documentação de APIs com Swagger|Cyber Security|
-| **06/11/2024** | Segurança em Aplicações Web + Spring Security|Cyber Security|
-| **08/11/2024** | **Bônus** - Integração com o Front |Cyber Security|
-| **13/11/2024** | **Boss** - Projeto final + Aula de Scrum |Cyber Security|
-| **15/11/2024** | Feriado | Feriado |
-| **19/11/2024** | Projeto final |Cyber Security|
-| **21/11/2024** | Projeto final + Retro e Review |Cyber Security|
-| **26/11/2024** | Projeto final |
+| **29/10/2024** | Spring JPA + Conexão do BD com Software|Java para Web + Fund. Teste em Software|
+| **31/10/2024** | **Mundo 3 - Fortaleza das redes suspensas** Introdução a APIs + Tipos de arquitetura: Monolítica vs. Microsserviços |Java para Web + Cyber Security|
+| **05/11/2024** | Testes e Documentação de APIs com Swagger|Cyber Security|
+| **07/11/2024** | Segurança em Aplicações Web + Spring Security|Cyber Security|
+| **12/11/2024** | **Boss** - Projeto final + Aula de Scrum |Cyber Security|
+| **14/11/2024** | **Bônus** - Integração com o Front |Cyber Security|
+| **19/11/2024** | Feriado | Feriado |
+| **21/11/2024** | Projeto final |Cyber Security|
+| **26/11/2024** | Projeto final + Retro e Review |Cyber Security|
 | **28/11/2024** | Projeto final |
-| **03/12/2024** | Apresentação |
+| **03/11/2024** | Projeto final |
 | **05/12/2024** | Apresentação |
 
