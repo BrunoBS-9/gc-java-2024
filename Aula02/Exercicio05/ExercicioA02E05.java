@@ -2,15 +2,19 @@ package org.example.Aula2;
 
 import java.util.Scanner;
 
-public class Exercicio6 {
+public class ExercicioA02E05 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+
+        int metade;
 
         System.out.println("Insira uma frase ou palavra");
         String input = scan.nextLine();
 
-        for (int i = input.length(); i > 0; i--){
-            System.out.print(input.charAt(i-1));
+        metade = input.length()/2;
+
+        for (int i = 0; i < metade; i++) {
+            System.out.print(input.charAt(i));
         }
     }
 }

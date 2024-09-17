@@ -2,7 +2,7 @@ package org.example.Aula2;
 
 import java.util.Scanner;
 
-public class Exercicio4 {
+public class ExercicioA02E04 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class Exercicio4 {
         for(int i = inicio; i <= fim; i++){
             if(ePrimo(i)){
                 System.out.print(i + ", ");
-            };
+            }
         }
     }
 
