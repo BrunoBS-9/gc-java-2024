@@ -1,4 +1,4 @@
-public class Principal{
+public class PrincipalA03E08 {
     public static void main(String[] args) {
         /*
         Implemente um sistema de veículos utilizando herenca e classes abstratas:
@@ -9,7 +9,8 @@ public class Principal{
         E os seguintes métodos:
         Um método abstrato chamado calcularCustoViagem(int distancia); Este método deve calcular o custo de uma viagem com base na distância percorrida (em quilometros). A implementacao do calculo sera diferente para cada tipo de veiculo
         */
+        System.out.println("a");
 
-        
+
     }
 }
