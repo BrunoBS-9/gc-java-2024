@@ -1,0 +1,39 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Maven
+target/
+!.mvn/timing.txt
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Other files
+*.jar
+*.war
+*.ear
+*.class
+*.db
+*.lock
+
+# User-specific files
+*.hprof
+*.orig
+*.user
+*.sublime-workspace
+*.sublime-project
