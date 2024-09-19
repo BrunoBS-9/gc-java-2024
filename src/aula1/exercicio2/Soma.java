@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import static java.lang.StringTemplate.STR;
+
 public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
