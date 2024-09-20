@@ -16,14 +16,16 @@ public class SomaMenorMedia {
         int numero3 = Integer.parseInt(scanner.nextLine());
 
         //Calculos
+        int maiorNumero = Math.max(numero1, numero2);
+        maiorNumero = Math.max(maiorNumero, numero3);
         int menorNumero = Math.min(numero1, numero2);
         menorNumero = Math.min(menorNumero, numero3);
-        int media = (numero1 + numero2 + numero3) / 2;
+        int media = (numero1 + numero2 + numero3) / 3;
 
         //Respondendo
-        System.out.println("A sua soma é " + (numero1 + numero2 + numero3));
+        System.out.println("O maior número é " + maiorNumero);
         System.out.println("O menor número é " + menorNumero);
-        System.out.println("Sua média é " + media);
+        System.out.println("Sua média aproximada é " + media);
 
     }
 }
