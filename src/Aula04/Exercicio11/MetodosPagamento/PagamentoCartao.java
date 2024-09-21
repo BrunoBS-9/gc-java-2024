@@ -8,15 +8,15 @@ public class PagamentoCartao implements Pagamento{
 
     @Override
     public boolean executarPagamento(int valor){
-
         if(nomeDoTitular == null)
         System.out.println("Pagamento foi realizado com sucesso");
+
         return false;
     }
 
     public boolean verificarNumeroCartao(String numeroDoCartao){
 
-        for (int i = 0; i <=)
+
         return false;
     }
 }
