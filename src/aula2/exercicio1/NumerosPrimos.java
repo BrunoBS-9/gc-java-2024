@@ -2,19 +2,37 @@ package aula2.exercicio1;
 import java.util.Scanner;
 
 public class NumerosPrimos {
+
+    //Função dos números primos
+    public static boolean ehPrimo(int numero) {
+        if (numero <= 1) {
+            return false;
+        }
+
+        for (int i = 2; i <= Math.sqrt(numero); i++) {
+            if (numero % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //limite números primos
-        int limite = 100;
+        //Parametros do Usuario
+        System.out.println("Diga os 2 parametros para o tamanho da lista");
+        System.out.print("Digite por qual número começa: ");
+        int inicio = scanner.nextInt();
+        System.out.print("Agora em qual acaba: ");
+        int fim = scanner.nextInt();
 
-        //Adquirindo espassamento
-        System.out.println("Diga entre quais numeros quer o espassamento");
-        System.out.println("Começa em");
-        int numeroInicial = Integer.parseInt(scanner.nextLine());
-        System.out.println("Número Final");
-        int numeroFinal = Integer.parseInt(scanner.nextLine());
-
-
+        //Resposta
+        System.out.println("Números primos entre " + inicio + " e " + fim + ":");
+        for (int i = inicio; i <= fim; i++) {
+            if (ehPrimo(i)) {
+                System.out.print(i + " ");
+            }
+        }
     }
 }
