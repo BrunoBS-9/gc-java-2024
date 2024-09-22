@@ -7,6 +7,7 @@ public class Menu {
         char escolha;
         int nro1, nro2;
         do {
+            System.out.println("Teste");
             System.out.println("CALCULADORA CALDEIRÍSTICA");
             System.out.println("-------MENU--------------");
             System.out.println("----1. Somar------------");
