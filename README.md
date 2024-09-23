@@ -39,7 +39,7 @@ Resposta: Café
 ```
 Qual minha comida favorita escrita ao contrário? ❌
 ```
-Resposta: Exemplo errado 
+Resposta: ffonogortS
 ```
 Qual meu anime favorito?
 ```
