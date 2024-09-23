@@ -17,6 +17,7 @@ public class Fluxo {
             System.out.println("----4. Multiplicar------");
             System.out.println("----5. Potenciar--------");
             System.out.println("----6. Raiz Quadrada----");
+            System.out.println("----7. SAIR-------------");
 
             escolha = scan.nextInt();
 
@@ -106,15 +107,16 @@ public class Fluxo {
                         break;
                     }
 
-                case 'n':
+                case 7:
                     System.out.println("Finalizando Calculadora...");
                     break;
+
                 default:
                     System.out.println("Entrada inválida");
                     break;
             }
 
-        }while (!condicaoSaida); //escolha != n
+        }while (!condicaoSaida && escolha != 7); //escolha != n
     }
 
     public boolean desejaContinuar(){
@@ -123,9 +125,9 @@ public class Fluxo {
         String opcao = scan.nextLine();
 
         if(opcao.contains("n")){
-            return false;
-        } else{
             return true;
+        } else{
+            return false;
         }
     }
 }
