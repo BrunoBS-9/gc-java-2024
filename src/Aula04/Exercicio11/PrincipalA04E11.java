@@ -1,5 +1,9 @@
 package Aula04.Exercicio11;
 
+import Aula04.Exercicio11.MetodosPagamento.Pagamento;
+import Aula04.Exercicio11.MetodosPagamento.PagamentoBoleto;
+import Aula04.Exercicio11.MetodosPagamento.PagamentoCartao;
+
 public class PrincipalA04E11 {
     /*
         Crie uma interface chamada Pagamento que declare o método
@@ -13,6 +17,12 @@ public class PrincipalA04E11 {
         diferentes tipos de pagamento
      */
     public static void main(String[] args) {
+        Pagamento pagamentoCartao = new PagamentoCartao("Helio", "1234-1234-1234-1234", "123123-12");
+        Pagamento pagamentoBoleto = new PagamentoBoleto();
+
+        pagamentoCartao.executarPagamento(300);
+        pagamentoBoleto.executarPagamento(400);
+
 
     }
 }
