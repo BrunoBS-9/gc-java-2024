@@ -7,6 +7,7 @@ public class Fluxo {
         Operacoes operacoes = new Operacoes();
         int escolha;
         double nro1, nro2;
+        boolean condicaoSaida = false;
         do {
             System.out.println("CALCULADORA CALDEIRÍSTICA");
             System.out.println("-------MENU--------------");
@@ -16,7 +17,6 @@ public class Fluxo {
             System.out.println("----4. Multiplicar------");
             System.out.println("----5. Potenciar--------");
             System.out.println("----6. Raiz Quadrada----");
-            System.out.println("----7. SAIR-------------");
 
             escolha = scan.nextInt();
 
@@ -32,6 +32,8 @@ public class Fluxo {
                     // return somar(nro1, nro2); me explica isso dai meu kkkk
                     System.out.println("--------RESULTADO----------");
                     System.out.println(operacoes.somar(nro1, nro2));
+
+                    condicaoSaida = desejaContinuar();
                     break;
 
                 case 2:
@@ -42,6 +44,8 @@ public class Fluxo {
                     nro2 = scan.nextDouble();
                     System.out.println("--------RESULTADO----------");
                     System.out.println(operacoes.subtrair(nro1, nro2));
+
+                    condicaoSaida = desejaContinuar();
                     break;
 
                 case 3:
@@ -56,6 +60,8 @@ public class Fluxo {
                         break;
                     } else{
                         System.out.println(operacoes.dividir(nro1, nro2));
+
+                        condicaoSaida = desejaContinuar();
                         break;
                     }
 
@@ -67,6 +73,8 @@ public class Fluxo {
                     nro2 = scan.nextDouble();
                     System.out.println("--------RESULTADO----------");
                     System.out.println(operacoes.multiplicar(nro1, nro2));
+
+                    condicaoSaida = desejaContinuar();
                     break;
 
                 case 5:
@@ -80,6 +88,7 @@ public class Fluxo {
                         break;
                     } else{
                         System.out.println(operacoes.potenciar(nro1, (int)nro2));
+                        condicaoSaida = desejaContinuar();
                         break;
                     }
 
@@ -92,10 +101,12 @@ public class Fluxo {
                     } else{
                         System.out.println("--------RESULTADO----------");
                         System.out.println(operacoes.radicar(nro1));
+
+                        condicaoSaida = desejaContinuar();
                         break;
                     }
 
-                case 7:
+                case 'n':
                     System.out.println("Finalizando Calculadora...");
                     break;
                 default:
@@ -103,6 +114,18 @@ public class Fluxo {
                     break;
             }
 
-        }while (escolha != 7); //escolha != n
+        }while (!condicaoSaida); //escolha != n
+    }
+
+    public boolean desejaContinuar(){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Deseja continuar? \ns- Sim n- Não");
+        String opcao = scan.nextLine();
+
+        if(opcao.contains("n")){
+            return false;
+        } else{
+            return true;
+        }
     }
 }
