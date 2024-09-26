@@ -23,6 +23,8 @@
 	- **Ex10:** NF
 	- **Ex11:** NF
 
+- Geral: use o formato AulaXX/ExercicioXX para o nome dos exercícios/pacotes. Os números dos exercícios são incrementais e facilitam nossa correção.
+  
 ---
 ## Conquistas
 
