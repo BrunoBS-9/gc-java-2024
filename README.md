@@ -2,7 +2,26 @@
 
 ---
 ## Level
-**Level Atual:** 0
+**Level Atual:** 1
+
+---
+## Feedback exercícios
+
+- **Aula 01:**
+	- **Ex1:** OK
+	- **Ex2:** Não funcionou. Considere que estamos usando o java 21. Você usou o string template que está em preview na versão 21. Cuidado com as versões, porque pode afetar seu código e, nesse caso, não compilar nem rodar.
+	- **Ex3:** Ok mas evite usar funções prontas.
+- **Aula 02:**
+	- **Ex4:** Ok
+	- **Ex5:** Ok mas evite usar funções prontas. Evite criar variáveis desnecessárias.
+	- **Ex6:** NF
+	- **Ex7:** NF
+- **Aula 03:**
+	- **Ex8:** Ok
+	- **Ex9:** NF
+- **Aula 04:**
+	- **Ex10:** NF
+	- **Ex11:** NF
 
 ---
 ## Conquistas
