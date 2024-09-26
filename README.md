@@ -2,8 +2,27 @@
 
 ---
 ## Level
-**Level Atual:** 0
+**Level Atual:** 3
 
+---
+## Feedback exercícios
+
+- **Aula 01:**
+	- **Ex1:** Ok
+	- **Ex2:** Ok
+	- **Ex3:** incorreto. Lógica ok, porém os números são double e estão sendo lidos como int (nextInt()), se você passar um valor quebrado o programa da erro.
+- **Aula 02:**
+	- **Ex4:** Ok	
+	- **Ex5:** Ok
+	- **Ex6:** Ok
+	- **Ex7:** (co-op) Ok, evite uso de métodos prontos. Porém lógica da raiz muito criativa
+- **Aula 03:**
+	- **Ex8:** Incorreto, método calcularCustoViagem, não deveria ter comportamento padrão, deve ser abstrato. toString desnecessário. Além disso código muito complicado sem necessidade (interatividade não é necessária, apenas queremos ver a lógica que pedimos no exercício)
+	- **Ex9:** Ok, parabéns por ter separado o verificador de CPF em outra classe. Código novamente muito complicado sem necessidade (interatividade não é necessária, apenas queremos ver a lógica que pedimos no exercício)
+- **Aula 04:**
+	- **Ex10:** Ok, idealmente classe base deveria ser abstrata
+	- **Ex11:** Ok
+	
 ---
 ## Conquistas
 
