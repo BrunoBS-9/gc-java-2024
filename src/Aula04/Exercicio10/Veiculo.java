@@ -1,6 +1,6 @@
 package Aula04.Exercicio10;
 
-public class Veiculo {
+public abstract class Veiculo {
     private String marca;
     private String modelo;
     private int ano;

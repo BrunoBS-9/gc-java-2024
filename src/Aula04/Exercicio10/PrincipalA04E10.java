@@ -13,11 +13,9 @@ public class PrincipalA04E10 {
      */
     public static void main(String[] args) {
 
-        Veiculo veiculo = new Veiculo("Fiat", "Argo", 2010);
         Carro novoCarro = new Carro("Fiat", "Mobi", 2021, 4);
         Moto novaMoto = new Moto("Yamaha", "XTZ 150", 2021, "Guidão dos Bons");
 
-        System.out.println(veiculo.informacoes());
         System.out.println(novoCarro.informacoes());
         System.out.println(novaMoto.informacoes());
     }
