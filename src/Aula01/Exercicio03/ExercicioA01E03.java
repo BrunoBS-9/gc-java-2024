@@ -7,9 +7,9 @@ public class ExercicioA01E03 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Insira três números: ");
-        double number1 = scan.nextInt();
-        double number2 = scan.nextInt();
-        double number3 = scan.nextInt();
+        double number1 = scan.nextDouble();
+        double number2 = scan.nextDouble();
+        double number3 = scan.nextDouble();
         double maior = number1, menor = number1;
         double media = 0;
 
