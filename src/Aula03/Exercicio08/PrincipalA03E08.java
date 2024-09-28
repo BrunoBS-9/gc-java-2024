@@ -32,15 +32,21 @@ public class PrincipalA03E08 {
                     System.out.println();
 
                     procura = scan.nextLine();
-                    Carro carroEncontrado = (Carro) listaVeiculos.procurarVeiculoNome(procura);
-                    System.out.println("Carro encontrado: " + carroEncontrado.toString());
 
-                    System.out.println("Qual a distancia em quilometros que deseja calcular o valor?");
-                    distancia = scan.nextDouble();
+                    if(fluxo.verificaEntrada(procura)){
+                        fluxo.verificaEntrada(procura);
+                        Carro carroEncontrado = (Carro) listaVeiculos.procurarVeiculoNome(procura);
+                        System.out.println("Carro encontrado: " + carroEncontrado.toString());
 
-                    valorDaViagem = carroEncontrado.calcularCustoViagem(distancia);
+                        System.out.println("Qual a distancia em quilometros que deseja calcular o valor?");
+                        distancia = scan.nextDouble();
 
-                    System.out.printf("O valor da viagem será de R$%.2f" + valorDaViagem);
+                        valorDaViagem = carroEncontrado.calcularCustoViagem(distancia);
+
+                        fluxo.mostraResultado(valorDaViagem);
+                    } else {
+                        System.out.println("**Insira ao menos 3 letras**");
+                    }
                     break;
                 case 2:
                     System.out.println("Escreva o nome de um dos Carros");
@@ -52,15 +58,20 @@ public class PrincipalA03E08 {
                     System.out.println();
 
                     procura = scan.nextLine();
-                    Moto motoEncontrado = (Moto) listaVeiculos.procurarVeiculoNome(procura);
-                    System.out.println("Moto encontrada: " + motoEncontrado.toString());
 
-                    System.out.println("Qual a distancia em quilometros que deseja calcular o valor?");
-                    distancia = scan.nextDouble();
+                    if(fluxo.verificaEntrada(procura)){
+                        Moto motoEncontrado = (Moto) listaVeiculos.procurarVeiculoNome(procura);
+                        System.out.println("Moto encontrada: " + motoEncontrado.toString());
 
-                    valorDaViagem = motoEncontrado.calcularCustoViagem(distancia);
+                        System.out.println("Qual a distancia em quilometros que deseja calcular o valor?");
+                        distancia = scan.nextDouble();
 
-                    System.out.printf("O valor da viagem será de R$%.2f" + valorDaViagem);
+                        valorDaViagem = motoEncontrado.calcularCustoViagem(distancia);
+
+                        fluxo.mostraResultado(valorDaViagem);
+                    } else{
+                        System.out.println("**Insira ao menos 3 letras**");
+                    }
                     break;
                 case 3:
                     System.out.println("Cadastrar carro(1) ou moto(2)?");

@@ -23,9 +23,5 @@ public abstract class Veiculo {
         return ano;
     }
 
-    public double calcularCustoViagem(double distanciaQuilometro){
-        double custoViagem = 0;
-
-        return custoViagem;
-    }
+    public abstract double calcularCustoViagem(double distanciaQuilometro);
 }
