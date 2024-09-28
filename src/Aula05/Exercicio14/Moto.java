@@ -5,8 +5,16 @@ public class Moto implements Veiculo{
     private String modelo;
     private int ano;
     private int quantidadeCilindradas;
+
+    public Moto(String marca, String modelo, int ano, int quantidadeCilindradas) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.quantidadeCilindradas = quantidadeCilindradas;
+    }
+
     @Override
     public String coletarDetalhes(){
-        return null;
+        return "Moto{Marca: " + marca + ", Modelo: " + modelo + ", Ano: " + ano + ", Quantidade de Cilindradas: " + quantidadeCilindradas +"}";
     }
 }
