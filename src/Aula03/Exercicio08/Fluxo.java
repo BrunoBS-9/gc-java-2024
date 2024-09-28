@@ -29,4 +29,18 @@ public class Fluxo {
             System.out.println("Insira o ano da Moto");
         }
     }
+
+    public void mostraResultado(double valorDaViagem){
+        System.out.println("==================================================");
+        System.out.printf("O valor da viagem será de R$%.2f\n", valorDaViagem);
+        System.out.println("==================================================");
+    }
+
+    public boolean verificaEntrada(String entrada){
+        if(entrada.length() < 3){
+            return false;
+
+        }
+        return true;
+    }
 }
