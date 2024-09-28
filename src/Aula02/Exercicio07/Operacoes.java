@@ -43,9 +43,14 @@ public class Operacoes {
     }
 
     public double radicar(double radicando){
-        double resultado = Math.pow(radicando, 1.0 / 2);
+        double resultado = 0;
+        // Math.pow(radicando, 1.0 / 2);
+
+        for (int i = 0; i < 1.0/2; i++){
+            resultado = radicando * radicando;
+        }
         return resultado;
-        //provavelmente teremos que ter uma var "resultado" pq acredito que o resultado de uma raiz tambem pode ser quebrado com virgula(double), precisamos discutir o assunto.
+
     }
 
     public boolean testaMenorIgual0(double valor){
