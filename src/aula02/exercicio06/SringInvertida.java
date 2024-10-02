@@ -1,4 +1,4 @@
-package aula2.exercicio3;
+package aula02.exercicio06;
 
 public class SringInvertida {
     public static void main(String[] args) {

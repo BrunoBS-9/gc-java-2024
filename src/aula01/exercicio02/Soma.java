@@ -11,5 +11,6 @@ public static void main(String[] args) {
     System.out.println("Segundo Número:");
     int numero2 = Integer.parseInt(scanner.nextLine());
 
-    System.out.println(STR."A sua soma é \{numero1 + numero2}");
+    System.out.println("A sua soma é:");
+    System.out.println(numero1 + numero2);
 }
