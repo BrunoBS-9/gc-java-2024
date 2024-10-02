@@ -1,4 +1,4 @@
-package aula2.exercicio1;
+package aula02.exercicio04;
 import java.util.Scanner;
 
 public class NumerosPrimos {

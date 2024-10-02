@@ -1,4 +1,4 @@
-package aula2.exercicio2;
+package aula02.exercicio05;
 import java.util.Scanner;
 
 public class SeparaString {
