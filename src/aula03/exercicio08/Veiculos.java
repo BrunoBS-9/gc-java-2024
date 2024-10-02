@@ -1,4 +1,4 @@
-package aula03.exercicio07;
+package aula03.exercicio08;
 
 abstract class Veiculos {
     String modelo;

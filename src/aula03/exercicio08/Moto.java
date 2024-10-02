@@ -1,4 +1,4 @@
-package aula03.exercicio07;
+package aula03.exercicio08;
 
 public class Moto extends Veiculos {
         double consumo = 0.15;
