@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89be871d-24d0-477f-a2d8-9dc36ee6cf9e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula01/Aula01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula01/Exercicio01/ExercicioA01E01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula01/Exercicio02/ExercicioA01E02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula01/Exercicio03/ExercicioA01E03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula02/Aula02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula02/Exercicio04/ExercicioA02E04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula02/Exercicio05/ExercicioA02E05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula02/Exercicio06/ExercicioA02E06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula02/Exercicio07/ExercicioA02E07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula03/Exercicio08/Carro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula03/Exercicio08/Fluxo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula03/Exercicio08/ListaAsAServiceKk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula03/Exercicio08/Moto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula03/Exercicio08/PrincipalA03E08.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula03/Exercicio08/TipoVeiculo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula03/Exercicio08/Veiculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,42 +26,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/helio/OneDrive/Documentos/gc-java-2024/src",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;exercicio12&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alunojava-37/Documents/Aula5/gc-java-2024&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="gc-java-2024" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="gc-java-2024" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
-      </set>
-    </attachedChunks>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
