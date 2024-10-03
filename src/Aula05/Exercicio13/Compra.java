@@ -1,5 +1,6 @@
 package Aula05.Exercicio13;
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 class Compra {
     String nome;
@@ -14,5 +15,6 @@ class Compra {
     public String getNome() {
             return nome;
     }
-}
 
+    static  ArrayList<Compra> listaCompras = new ArrayList<>();
+}

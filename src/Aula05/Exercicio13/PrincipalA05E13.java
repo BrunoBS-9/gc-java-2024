@@ -1,17 +1,13 @@
 package Aula05.Exercicio13;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class PrincipalA05E13 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
-        ArrayList<Compra> listaCompras = new ArrayList<>();
-
         int escolha = 0;
+
 
         while (escolha != 4) {
             System.out.println("==Lista de compra Criada==\n1- Adicionar item \n2- Remover item\n3- Ver lista\n4- Finalizar lista");
@@ -38,38 +34,40 @@ public class PrincipalA05E13 {
 
                     LocalDate validade = LocalDate.of(ano, mes, dia);
 
-                    Compra compra = new Compra(nome,validade,tipo);
-                    listaCompras.add(compra);
+                    Compra compra = new Compra(nome, validade, tipo);
+
+                    compra.listaCompras.add(compra);
                     System.out.println("Item adicionado a lista");
                     break;
                 case 2:
-                    if (listaCompras.isEmpty()){
-                        System.out.println("A lista está vazia");
-                        break;
-                    } else {
-                        Collections.shuffle(listaCompras);
-                        System.out.println(listaCompras);
-
-
+                    for (Compra i : Compra.listaCompras) {
+                        System.out.println(i.getNome());
                         System.out.println("Qual item gostaria de remover?");
                         String removeItem = scan.nextLine();
                         removeItem = scan.nextLine();
 
-                        for (int i = 0; i < listaCompras.size(); i++) {
-                            if (listaCompras.get(i).getNome().equalsIgnoreCase(removeItem)) {
-                                listaCompras.remove(i);
+                        for (int P = 0; P < Compra.listaCompras.size(); P++) {
+                            if (Compra.listaCompras.get(P).getNome().equalsIgnoreCase(removeItem)) {
+                                Compra.listaCompras.remove(removeItem);
+                                System.out.println("Item " + removeItem + " removido");
                             }
                         }
                     }
                     break;
                 case 3:
-                    System.out.println(listaCompras);
+                    for (Compra i : Compra.listaCompras) {
+                        System.out.println(i.getNome());
+                    }
                     break;
+
+                case 4:
+                    System.out.println("Lista finalizada");
+                    break;
+
                 default:
                     System.out.println("Opção invalida");
                     break;
             }
         }
-        System.out.println("Lista finalizada");
     }
 }
