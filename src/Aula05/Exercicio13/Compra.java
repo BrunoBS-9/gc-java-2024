@@ -1,27 +1,20 @@
 package Aula05.Exercicio13;
-
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 class Compra {
-    private String nome;
-    private String dataValidade;
+    String nome;
+    LocalDate validade;
+    String tipo;
 
-    public Compra(String nome, String dataValidade) {
+    public Compra(String nome,LocalDate validade,String tipo) {
         this.nome = nome;
-        this.dataValidade = dataValidade;
+        this.validade = validade;
+        this.tipo = tipo;
     }
-
     public String getNome() {
-        return nome;
+            return nome;
     }
 
-    public String getDataValidade() {
-        return dataValidade;
-    }
-
-    @Override
-    public String toString() {
-        return "Item: " + nome + ", Validade: " + dataValidade;
-    }
+    static  ArrayList<Compra> listaCompras = new ArrayList<>();
 }
