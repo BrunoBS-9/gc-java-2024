@@ -6,13 +6,13 @@ public class ErroNumNegativo {
         Scanner scan = new Scanner(System.in);
         int numInteiro;
 
-
-        try {
-            System.out.println("Diga um número inteiro:");
-            numInteiro = Integer.parseInt(scan.nextLine());
-        } catch (IllegalAccessException e) {
-            throw new RuntimeException(e);
-        }
+        //erro a ser concertado
+//        try {
+//            System.out.println("Diga um número inteiro:");
+//            numInteiro = Integer.parseInt(scan.nextLine());
+//        } catch (IllegalAccessException e) {
+//            throw new RuntimeException(e);
+//        }
 
 
     }
