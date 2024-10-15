@@ -1,9 +1,17 @@
 package aula07.exercicio21;
 
-public class ExceptionMain {
-    public static void main(String[] args) throws IllegalAccessException {
-        throw new IllegalAccessException("O número é negativo");
+import java.util.Scanner;
 
+public class ExceptionMain extends ErroNumNegativo{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Diga um número");
+        int numero = scan.nextInt();
+
+        try {verificarNumero(numero);
+        } catch (IllegalArgumentException e) {
+            System.out.println("Exceção capturada: " + e.getMessage());
+        }
     }
 }
-

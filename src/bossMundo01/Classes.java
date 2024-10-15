@@ -1,4 +1,4 @@
-package BossMundo01;
+package bossMundo01;
 
 public class Classes {
     String cavaleiro;

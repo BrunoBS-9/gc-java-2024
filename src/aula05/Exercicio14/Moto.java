@@ -1,4 +1,4 @@
-package Aula05.Exercicio14;
+package aula05.Exercicio14;
 
 public class Moto implements Veiculo{
     private String marca;

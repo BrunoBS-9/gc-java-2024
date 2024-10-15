@@ -2,18 +2,11 @@ package aula07.exercicio21;
 import java.util.Scanner;
 
 public class ErroNumNegativo {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int numInteiro;
+    public static void verificarNumero(int numero) {
 
-
-        try {
-            System.out.println("Diga um número inteiro:");
-            numInteiro = Integer.parseInt(scan.nextLine());
-        } catch (IllegalAccessException e) {
-            throw new RuntimeException(e);
+        if (numero < 0) {
+            throw new IllegalArgumentException("O número não pode ser negativo");
         }
-
-
+            System.out.println("O número é válido: " + numero);
     }
 }
