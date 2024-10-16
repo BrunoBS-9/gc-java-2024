@@ -34,12 +34,7 @@ public class Main {
                 case 2 -> System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
                 case 3 -> System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
                 case 4 -> System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
-                case 5 -> {
-                    for (int i = 0; i < num2; i++) {
-                        resultado *= num1;
-                    }
-                    System.out.println(num1 + " elevado a " + num2 + " = " + resultado);
-                }
+                case 5 -> System.out.println(num1 + " elevado a " + num2 + " = " + (num1 ^ num2));
                 case 6 -> System.out.println("Raiz quadrada de " + num1 + " = " + Math.sqrt(num1));
                 case 7 -> {
                     iniciaCalculadora = false;
