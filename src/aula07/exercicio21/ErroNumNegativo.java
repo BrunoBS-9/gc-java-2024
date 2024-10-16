@@ -1,5 +1,4 @@
 package aula07.exercicio21;
-import java.util.Scanner;
 
 public class ErroNumNegativo {
     public static void verificarNumero(int numero) {
