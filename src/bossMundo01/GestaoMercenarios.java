@@ -1,11 +1,11 @@
-package BossMundo01;
+package bossMundo01;
 import java.util.ArrayList;
 import java.util.List;
 
-class SistemaDeGestao {
+class GestaoMercenarios {
     private List<Aventureiros> aventureiros;
 
-    public SistemaDeGestao() {
+    public GestaoMercenarios() {
         this.aventureiros = new ArrayList<>();
     }
 

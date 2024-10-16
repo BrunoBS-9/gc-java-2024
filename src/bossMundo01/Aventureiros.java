@@ -1,4 +1,4 @@
-package BossMundo01;
+package bossMundo01;
 
 class Aventureiros {
     private String nome;

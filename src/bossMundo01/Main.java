@@ -1,9 +1,9 @@
-package BossMundo01;
+package bossMundo01;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        SistemaDeGestao sistema = new SistemaDeGestao();
+        GestaoMercenarios sistema = new GestaoMercenarios();
         Scanner scan = new Scanner(System.in);
         boolean executando = true;
 
