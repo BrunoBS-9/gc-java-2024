@@ -2,10 +2,10 @@ package BossMundo01;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GestaoMercenarios {
+class SistemaDeGestao {
     private List<Aventureiros> aventureiros;
 
-    public GestaoMercenarios() {
+    public SistemaDeGestao() {
         this.aventureiros = new ArrayList<>();
     }
 
