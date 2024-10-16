@@ -1,7 +1,11 @@
-package aula07.exercicio21;
+package aula07.exercicio22;
 import java.util.Scanner;
 
-public class ExceptionMain extends ErroNumNegativo{
+public class ExceptionMain extends ValorInvalidoException{
+    public ExceptionMain(String mensage) {
+        super(mensage);
+    }
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -9,7 +13,7 @@ public class ExceptionMain extends ErroNumNegativo{
         int numero = scan.nextInt();
 
         try {verificarNumero(numero);
-        } catch (IllegalArgumentException e) {
+        } catch (ValorInvalidoException e) {
             System.out.println("Exceção capturada: " + e.getMessage());
         }
     }
