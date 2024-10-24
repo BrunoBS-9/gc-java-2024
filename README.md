@@ -2,7 +2,7 @@
 
 ---
 ## Level
-**Level Atual:** 1
+**Level Atual:** 6
 
 ---
 ## Feedback exercícios
@@ -22,7 +22,23 @@
 - **Aula 04:**
 	- **Ex10:** NF
 	- **Ex11:** NF
-
+- **Aula 05:**
+	- **Ex12:** Ok, cuidado com loops desnecessários
+	- **Ex13:** Incorreto, código está bagunçado, tem 2 métodos main e muita lógica repetida
+	- **Ex14:** Ok
+- **Aula 06:**
+	- **Ex15:** Lógica ok, porém é uma boa prática dividir classes em arquivos diferentes
+	- **Ex16:** Lógica ok, porém é uma boa prática dividir classes em arquivos diferentes
+	- **Ex17:** Ok, idealmente deveria permitir que o usuário digite os números que vão ser adicionados
+	- **Ex18:** Ok, idealmente a verificação do nome deve ignorar letras maiúsculas e minúsculas. Cuidado com lógica desnecessária
+	- **Ex19:** NF
+	- **Ex20:** NF
+- **Aula 07:**
+	- **Ex21:** Incorreto, exercício incompleto
+	- **Ex22:** NF
+	- **Ex23:** NF
+	- **Ex24:** NF
+	
 - Geral: use o formato AulaXX/ExercicioXX para o nome dos exercícios/pacotes. Os números dos exercícios são incrementais e facilitam nossa correção.
   
 ---
